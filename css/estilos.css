@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+ margin: 1vh 1vw;
+  }
+#Contenedor
+{
+  /* background-color: gray; */
+  font-family: helvetica;
+}
+
+.navbar {
+  margin: 0vh 0vw;
+  background-color: rgb(129, 188, 210);
+}
+
+.navegar {
+  font-size: 25px;
+  color: rgb(244, 244, 247);
+  
+}
+h1
+{
+  color: rgb(54, 94, 179);
+  font-family: helvetica;
+}
+
+p
+{
+  color:black;
+  font-family: helvetica;
+  font-size: 15px;
+}
+
+footer
+{
+border-top: 1px solid black;
+  margin-top: 50px;
+}
+
+a[href^='#']{
+  color: red;
+}
+
+/*img[src$='.gif']{
+  border-radius: 50px;
+}*/
+
+ img[src$='.jpg']{
+   border: 2px solid black;
+   border-radius: 20px;
+ }
+
+/* h1 + h2 {
+  text-decoration: underline;
+} */
+
+h2 ~ p{
+  text-align:justify;
+}
+
+ul li{
+  list-style-type: circle;
+}

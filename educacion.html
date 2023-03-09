@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>CV Ariel ALVAREZ-Educacion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body id="Contenedor">
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light" id="neubar">
+      <div class="container">
+         <a class="navbar-brand" href="index.html"><img src="img/foto.jpg" alt="Mi foto"  width="200" height="200" ></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div>
+            <h1>Curriculum Vitae</h1>
+            <h2>Luis Ariel ALVAREZ</h2>
+      </div>
+          <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto navegar">
+                  <li class="nav-item">
+                      <a class="nav-link mx-2 active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link mx-2" aria-current="page" href="educacion.html">Educacion</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link mx-2 " aria-current="page" href="experiencia.html">Experiencia</a>
+                  </li>
+                 
+              </ul>
+          </div>
+      </div>
+  </nav>
+  </header>
+    <br/>
+    <h2>FORMACION ACADEMICA</h2>
+    <table border="1", cellpadding="10", cellspacing="0">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>Titulo</th>
+        <th>¿Culminó?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1990</td>
+          <td>Colegio Belgrano</td>
+          <td>Salta</td>
+          <th>Bachiller</th>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2000</td>
+          <td>UTN-FRT</td>
+          <td>S.M de Tucumán</td>
+          <th>Ingeniero Mecanico</th>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2005</td>
+          <td>Universidad de Belgrano</td>
+          <td>Salta</td>
+          <th>Conduccion Gerencial</th>
+          <td>Si</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <form action="index.html" name="formEstudios" autocomplete="on" >
+      <fieldset>
+        <h1>Agregar Estudios</h1>
+        <label for="año">Año:</label>
+          <select name="año">
+            <option>1990</option>
+            <option>1991</option>
+            <option>1992</option>
+            <option>1993</option>
+            <option>1994</option>
+            <option>1995</option>
+            <option>1996</option>
+            <option>1997</option>
+            <option>1998</option>
+            <option>1999</option>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            <option>2003</option>
+            <option>2004</option>
+            <option>2005</option>
+          </select> <br><br>
+
+          <label for="Institucion">Institución:</label>
+          <input type="text" id="Institucion" size="48" maxlength="50" required >
+          <br><br>
+          <label for="Lugar">Lugar:</label>
+          <textarea name="Lugar" rows="2" cols="40"></textarea>
+          <br><br>
+          <label for="Culmino">¿Culminó?</label>
+          <input type="radio" name="Culmino">Si
+          <input type="radio" name="Culmino">No
+          <br><br>
+          <input type="submit" value="Enviar">
+
+
+
+
+      </fieldset>
+    </form>
+
+
+    <footer>
+      <ul>
+        <li><h4>E-mail: <a href="mailto:arielalvarez04@gmail.com?subject=feedback">arielalvarez04@gmail.com</a></h4></li>
+        <li><h4>Teléfono: +54 387 6050581</h4></li>
+        <li><h4>Dirección: Lavalle 864 1° E</h4></li>
+      </ul>
+      <img src="img/Icono_Instagram.gif" alt="Instagram" width="50" height="50">
+      <img src="img/Icono_Facebook.gif" alt="Facebook" width="50" height="50">
+      <img src="img/Icono_Twitter.gif" alt="Twitter" width="50" height="50">
+      <img src="img/Icono_Whatsapp.gif" alt="Whatsapp" width="50" height="50">
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
