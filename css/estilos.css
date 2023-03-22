@@ -24,11 +24,22 @@ h1
   font-family: helvetica;
 }
 
+h2
+{
+  color: rgb(54, 94, 179);
+  font-family: helvetica;
+
+}
 p
 {
   color:black;
   font-family: helvetica;
   font-size: 15px;
+}
+
+.centrado {
+  display: flex;
+  justify-content: center;
 }
 
 footer
